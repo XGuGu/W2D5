@@ -69,6 +69,7 @@ class LinkedList
     node.prev = tail.prev
     node.next = tail
     tail.prev = node
+    node
   end
 
   def update(key, val)
